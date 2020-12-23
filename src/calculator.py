@@ -58,4 +58,4 @@ class Calculator:
             return result
 
 if __name__ == '__main__':
-    run = Calculator().mainFunc('0.1','+','0')
+    run = Calculator().mainFunc('0.01','+','0.1')
