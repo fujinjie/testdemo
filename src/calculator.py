@@ -6,16 +6,16 @@ class Calculator:
         pass
 
     def addFunc(self,a,b):
-        return a + b
+        return float(a) + float(b)
 
     def minFunc(self,a,b):
-        return a - b
+        return float(a) - float(b)
 
     def mulFunc(self,a,b):
-        return a * b
+        return float(a) * float(b)
 
     def divFunc(self,a,b):
-        return a / b
+        return float(a) / float(b)
 
     def assertNumInput(self,num):
         try:
